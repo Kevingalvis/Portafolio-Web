@@ -1,0 +1,83 @@
+/* RESETEAMOS TODOS LOS VALORES PREDETERMINADOS DEL HTML5*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*FONDO PREDETERMIANDO*/
+body{
+    background-image: url("../Assets/Img/fondo-web.png");
+    background-size: cover;
+}
+/*COLORES PREDETERMINADOS QUE VAMOS A USAS*/
+:root{
+    --main-color-blue: #0071BC;
+    --main-color-blueDark:#0E4563;
+    --main-color-white:#ffffff;
+}
+/*TEXTOS PREDETERMINADOS*/
+.text-h3{
+    color: var(--main-color-white);
+    font-weight: bold;
+    font-style: italic;
+}
+.bar-link{
+    color: var(--main-color-white);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    margin-right: 1em;
+}
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BARRA DE NAVEGACION*/
+
+.cont-bar{
+    background-color: var(--main-color-blue);
+    width: 100%;
+    height: 4.688em;
+    display: flex;  
+    align-items: stretch;
+    line-height: 4.688em;
+
+    position: fixed;
+  
+}
+.text-bar{
+  width: 50%;  
+  font-size: 1.625em;
+}
+.cont-bar img{
+    height: 3.125em;
+    width: 15%;
+    position: relative;
+    top: 15px;  
+    
+}
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    line-height: 4.688em;
+}
+.bar-items{
+    display: flex;
+    
+}
+.bar-item{
+   border-left: solid 4px;
+   border-color: var(--main-color-white);
+}
+.bar-link{
+    padding: 1em;
+}
+
