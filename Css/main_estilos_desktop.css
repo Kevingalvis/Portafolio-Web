@@ -252,6 +252,7 @@ i{
         height: 100vh;
         background-image: url("../Assets/Img/fondo-web.png");
         left: 0%;
+        overflow-y: auto;
     }
     .bar-logo{
         left: 15px;
@@ -276,8 +277,5 @@ i{
         color: var(--main-color-blueDark);
     }
     
-    
-    
-
 } 
 
