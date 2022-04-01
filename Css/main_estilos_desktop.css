@@ -56,7 +56,7 @@ i{
   width: 50%;  
   font-size: 1.625em;
 }
-.cont-bar img{
+.bar-logo{
     height: 3.125em;
     width: 15%;
     position: relative;
@@ -80,4 +80,204 @@ i{
 .bar-link{
     padding: 1em;
 }
+.bar-movil-logo{
+    display: none;
+}
+
+.bar-btn{
+    border: none;
+    background: none;
+    font-size: 2em;
+    color: var(--main-color-white);
+    display: none;
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BREAK POINT FULL HD 1200 / 1400*/
+@media screen and (min-width: 75em) and (max-width: 87.5em) {
+    /*BARRA DE NAVEGACION*/
+
+    .cont-bar{
+        background-color: var(--main-color-blue);
+        width: 100%;
+        height: 4.688em;
+        display: flex;  
+        align-items: stretch;
+        line-height: 4.688em;
+
+        position: fixed;
+    
+    }
+    .text-bar{
+    width: 50%;  
+    font-size: 1.625em;
+    }
+    .cont-bar img{
+        height: 3.125em;
+        width: 15%;
+        position: relative;
+        top: 15px;  
+        
+    }
+    .bar{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        line-height: 4.688em;
+    }
+    .bar-items{
+        display: flex;
+        
+    }
+    .bar-item{
+    border-left: solid 4px;
+    border-color: var(--main-color-white);
+    }
+    .bar-link{
+        padding: 1em;
+    }
+   
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BREAK POINT DESKTOP NORMAL 992 / 1200*/
+
+@media screen and (min-width: 62em) and (max-width: 75em) {
+    .bar-link{
+        font-size: 0.75em;
+    }
+    
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BREAK POINT DESKTOP MINI 768 / 992* */
+@media screen and (min-width: 48em) and (max-width: 62em) {
+    .bar-link{
+        font-size: 0.65em;
+    }
+} 
+
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BREAK POINT TABLET 576 / 768* */
+@media screen and (min-width: 36em) and (max-width: 48em) {
+    .cont-bar{
+        justify-content: space-evenly;
+   
+    }
+    .bar{
+       position: fixed;
+       top: 4.688em;
+       
+    }
+    .text-bar{
+        width: auto;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .bar-btn{
+        display: block;
+    }
+    .bar-items{
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 4.688em;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../Assets/Img/fondo-web.png");
+        overflow-y: auto;
+        
+
+        
+        
+    }
+    .bar-logo{
+        left: 15px;
+    }
+    .bar-movil-logo{
+        margin: 1em;
+        display: block;
+        height: 8.625em;
+    }
+    .bar-item{
+        width: 50%;
+        text-align: center;
+        margin: 0.50em;
+        border-left: none;
+        border-style: dashed;
+        border-color: var(--main-color-blueDark);
+        border-radius: 5em;
+        
+    }
+    .bar-link{
+        font-size: 0.75em;
+        color: var(--main-color-blueDark);
+    }
+    
+    
+    
+    
+
+} 
+
+/* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/*BREAK POINT TABLET 576 / 768* */
+@media screen and (min-width: 0em) and (max-width: 36em) {
+    .cont-bar{
+        justify-content: space-evenly;
+    }
+    .bar{
+       position: fixed;
+       top: 4.688em;
+    }
+    .text-bar{
+        width: auto;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .bar-btn{
+        display: block;
+    }
+    .bar-items{
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 4.688em;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../Assets/Img/fondo-web.png");
+        left: 0%;
+    }
+    .bar-logo{
+        left: 15px;
+    }
+    .bar-movil-logo{
+        margin: 1em;
+        display: block;
+        height: 8.625em;
+    }
+    .bar-item{
+        width: 50%;
+        text-align: center;
+        margin: 0.50em;
+        border-left: none;
+        border-style: dashed;
+        border-color: var(--main-color-blueDark);
+        border-radius: 5em;
+        
+    }
+    .bar-link{
+        font-size: 0.75em;
+        color: var(--main-color-blueDark);
+    }
+    
+    
+    
+
+} 
 
