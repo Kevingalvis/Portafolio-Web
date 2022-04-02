@@ -48,8 +48,9 @@ i{
     display: flex;  
     align-items: stretch;
     line-height: 4.688em;
-
     position: fixed;
+
+    z-index: 1000;
   
 }
 .text-bar{
@@ -80,6 +81,8 @@ i{
 .bar-link{
     padding: 1em;
 }
+
+
 .bar-movil-logo{
     display: none;
 }
@@ -91,6 +94,39 @@ i{
     color: var(--main-color-white);
     display: none;
 }
+/* ---------------------------------------------------------------------------------------------*/
+/*REDES SOCIALES*/
+.cont-redes{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   bottom: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: end; 
+   align-items: center;
+}
+.redes{
+    display: flex;
+}
+.redes-items{
+    display: flex;
+}
+.img-redes{
+    height: 50px;
+    padding: 0.55em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------------------------------------------------------------------------------------------*/
 /* ---------------------------------------------------------------------------------------------*/
@@ -105,7 +141,7 @@ i{
         display: flex;  
         align-items: stretch;
         line-height: 4.688em;
-
+        z-index: 1000;
         position: fixed;
     
     }
@@ -137,6 +173,30 @@ i{
     .bar-link{
         padding: 1em;
     }
+
+    /* ---------------------------------------------------------------------------------------------*/
+    /*REDES SOCIALES*/
+    .cont-redes{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end; 
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+    }
+    .redes-items{
+        display: flex;
+    }
+    .img-redes{
+        height: 50px;
+        padding: 0.55em;
+    }
+ 
    
 }
 
@@ -148,6 +208,30 @@ i{
     .bar-link{
         font-size: 0.75em;
     }
+
+     /* ---------------------------------------------------------------------------------------------*/
+    /*REDES SOCIALES*/
+    .cont-redes{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end; 
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+    }
+    .redes-items{
+        display: flex;
+    }
+    .img-redes{
+        height: 50px;
+        padding: 0.55em;
+    }
+ 
     
 }
 
@@ -155,8 +239,31 @@ i{
 /* ---------------------------------------------------------------------------------------------*/
 /*BREAK POINT DESKTOP MINI 768 / 992* */
 @media screen and (min-width: 48em) and (max-width: 62em) {
+    
     .bar-link{
         font-size: 0.65em;
+    }
+     /* ---------------------------------------------------------------------------------------------*/
+    /*REDES SOCIALES*/
+    .cont-redes{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end; 
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+    }
+    .redes-items{
+        display: flex;
+    }
+    .img-redes{
+        height: 40px;
+        padding: 0.55em;
     }
 } 
 
@@ -166,7 +273,7 @@ i{
 @media screen and (min-width: 36em) and (max-width: 48em) {
     .cont-bar{
         justify-content: space-evenly;
-   
+        z-index: 1000;
     }
     .bar{
        position: fixed;
@@ -188,13 +295,18 @@ i{
         top: 4.688em;
         width: 100%;
         height: 100vh;
+        background-color: var(--main-color-white);
         background-image: url("../Assets/Img/fondo-web.png");
+        left: 100%;
+        transition: left 0.9s; 
         overflow-y: auto;
-        
-
-        
-        
+   
     }
+        /*EFECTO MENU LATERAL*/
+        .bar-items_visible{
+            left: 0%;
+        }
+
     .bar-logo{
         left: 15px;
     }
@@ -210,17 +322,13 @@ i{
         border-left: none;
         border-style: dashed;
         border-color: var(--main-color-blueDark);
-        border-radius: 5em;
+        border-radius: 3em;
         
     }
     .bar-link{
         font-size: 0.75em;
         color: var(--main-color-blueDark);
     }
-    
-    
-    
-    
 
 } 
 
@@ -230,10 +338,12 @@ i{
 @media screen and (min-width: 0em) and (max-width: 36em) {
     .cont-bar{
         justify-content: space-evenly;
+        z-index: 1000;
     }
     .bar{
        position: fixed;
        top: 4.688em;
+       
     }
     .text-bar{
         width: auto;
@@ -250,10 +360,18 @@ i{
         top: 4.688em;
         width: 100%;
         height: 100vh;
+        background-color: var(--main-color-white);
         background-image: url("../Assets/Img/fondo-web.png");
-        left: 0%;
+        left: 100%;
+        transition: left 0.9s; 
         overflow-y: auto;
+   
     }
+        /*EFECTO MENU LATERAL*/
+        .bar-items_visible{
+            left: 0%;
+        }
+
     .bar-logo{
         left: 15px;
     }
@@ -269,7 +387,7 @@ i{
         border-left: none;
         border-style: dashed;
         border-color: var(--main-color-blueDark);
-        border-radius: 5em;
+        border-radius: 3em;
         
     }
     .bar-link{
