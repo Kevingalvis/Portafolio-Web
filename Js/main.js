@@ -1,6 +1,6 @@
 // VARIABLES MENU LATERAL 
 const $btnBar = document.querySelector(".bar-btn");
-const $batItems = document.querySelector(".bar-items");
+const $batItems = document.querySelector(".bar");
 
 //FUNCIONALIDAD MENU
 $btnBar.addEventListener("click",()=>{
