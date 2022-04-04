@@ -14,10 +14,11 @@ html{
 /*FONDO PREDETERMIANDO*/
 body{
     background-image: url("../Assets/Img/fondo-web.png");
-    background-size: cover;
+  
 }
 /*COLORES PREDETERMINADOS QUE VAMOS A USAS*/
 :root{
+    --main-color-blueLigth: #3FA9F5;
     --main-color-blue: #0071BC;
     --main-color-blueDark:#0E4563;
     --main-color-white:#ffffff;
@@ -105,6 +106,7 @@ i{
    flex-direction: column;
    justify-content: end; 
    align-items: center;
+   z-index: 999;
 }
 .redes{
     display: flex;
@@ -117,15 +119,47 @@ i{
     padding: 0.55em;
 }
 
+ /* ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/* WELCOME SECTION*/
+    .section-basic{
+        position: absolute;
+        top: 4.688em;
+        width: 100%;
+       
+    }  
+    .article-basic{
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
 
+        background-image: url(../Assets/Img/LogoSinLetrasWhite.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } 
+    .text-h1{
+        font-style: italic;
+    }
+    .text-h2{
+        line-height: 2em;
+    }
 
-
-
-
-
-
-
-
+    .b-blue{
+        background-color: var(--main-color-blueLigth);
+        padding: 0.25em;
+        color: var(--main-color-white);
+        font-style: italic;
+    }
+    
+    .article-basic img{
+        height: 250px;
+        margin: 2em;
+    }
 
 
 /* ---------------------------------------------------------------------------------------------*/

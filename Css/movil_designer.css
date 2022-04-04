@@ -4,7 +4,6 @@
 /* ---------------------------------------------------------------------------------------------*/
 /*BREAK POINT TABLET 576 / 768* */
 @media screen and (min-width: 36em) and (max-width: 48em) {
-    
     .cont-bar{
         justify-content:space-between;
     }
@@ -49,6 +48,47 @@
         .bar-items_visible{
             left: 0%;
         }
+
+    /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* WELCOME SECTION*/
+    .section-basic{
+        position: absolute;
+        top: 4.688em;
+        width: 100%;
+       
+    }  
+    .article-basic{
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        background-image: url(../Assets/Img/LogoSinLetrasWhite.svg);
+        background-repeat: no-repeat;
+    } 
+    .text-h1{
+        font-style: italic;
+    }
+    .text-h2{
+        line-height: 2em;
+    }
+
+    .b-blue{
+        background-color: var(--main-color-blueLigth);
+        padding: 0.25em;
+        color: var(--main-color-white);
+        font-style: italic;
+    }
+    
+    .article-basic img{
+        height: 250px;
+        margin: 2em;
+    }
 
 } 
 
@@ -100,6 +140,52 @@
         .bar-items_visible{
             left: 0%;
         }
+
+
+        /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* WELCOME SECTION*/
+    .section-basic{
+        position: absolute;
+        top: 4.688em;
+        width: 100%;
+       
+    }  
+    .article-basic{
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        background-image: url(../Assets/Img/LogoSinLetrasWhite.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    } 
+    .text-h1{
+        font-style: italic;
+        font-size: 0.85em;
+    }
+    .text-h2{
+        line-height: 2em;
+        font-size: 0.75em;
+    }
+
+    .b-blue{
+        background-color: var(--main-color-blueLigth);
+        padding: 0.25em;
+        color: var(--main-color-white);
+        font-style: italic;
+    }
+    
+    .article-basic img{
+        height: 250px;
+        margin: 2em;
+    }
     
 } 
 
