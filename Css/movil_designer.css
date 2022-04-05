@@ -53,9 +53,10 @@
     /* ---------------------------------------------------------------------------------------------*/
     /* WELCOME SECTION*/
     .section-basic{
-        position: absolute;
+        position: relative;
         top: 4.688em;
         width: 100%;
+        
        
     }  
     .article-basic{
@@ -89,6 +90,78 @@
         height: 250px;
         margin: 2em;
     }
+
+    /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* RESEÑA */
+    .article-basic_100{
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        background-image:linear-gradient(rgba(0, 174, 255, 0.726), rgba(12, 139, 243, 0.87)), url(../Assets/Img/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .text-p{
+        color: var(--main-color-white);
+        font-weight: bold;
+        line-height: 2em;
+    }
+
+     /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* CARDS SKILLS*/
+    .card{
+        position: relative;
+        top: 11.500em;
+        width: 100%;
+        height:auto;
+        border-radius: 1em;
+        background-color: var(--main-color-white);
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+        margin-top: 2em;
+    
+        
+       
+    }
+    .card-header{
+        padding: 2em;
+        background-color: var(--main-color-blueLigth);
+    }
+    .card-header img{
+        height: 100px;
+        margin: 0;
+    }
+    .card h2{
+        font-weight: bold;
+        color: var(--main-color-blue);
+        font-style: italic;
+       
+    }
+    .card p{
+        font-weight: bold;
+        font-size: 0.75em;
+        padding: 1em;
+        
+    }
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-footer img{
+        height: 50px;
+        margin: 0;
+        padding: 1em;
+    }
+
 
 } 
 
@@ -146,7 +219,7 @@
     /* ---------------------------------------------------------------------------------------------*/
     /* WELCOME SECTION*/
     .section-basic{
-        position: absolute;
+        position: relative;
         top: 4.688em;
         width: 100%;
        
@@ -158,7 +231,8 @@
         padding: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
+        
         text-align: center;
 
         background-image: url(../Assets/Img/LogoSinLetrasWhite.svg);
@@ -185,7 +259,81 @@
     .article-basic img{
         height: 250px;
         margin: 2em;
+       
     }
+
+     /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* RESEÑA */
+    .article-basic_100{
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        background-image:linear-gradient(rgba(0, 174, 255, 0.726), rgba(12, 139, 243, 0.87)), url(../Assets/Img/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .text-p{
+        color: var(--main-color-white);
+        font-weight: bold;
+        line-height: 2em;
+        padding: 1em;
+    }
+     /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* CARDS SKILLS*/
+    
+    .card{
+        position: relative;
+        top: 11.500em;
+        width: 100%;
+        height:auto;
+        border-radius: 1em;
+        background-color: var(--main-color-white);
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+        margin-top: 2em;
+        
+       
+    }
+    .card-header{
+        padding: 2em;
+        background-color: var(--main-color-blueLigth);
+    }
+    .card-header img{
+        height: 100px;
+        margin: 0;
+    }
+    .card h2{
+        font-weight: bold;
+        color: var(--main-color-blue);
+        font-style: italic;
+       
+    }
+    .card p{
+        font-weight: bold;
+        font-size: 0.75em;
+        padding: 1em;
+        
+    }
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-footer img{
+        height: 50px;
+        margin: 0;
+        padding: 1em;
+    }
+   
+
     
 } 
 
