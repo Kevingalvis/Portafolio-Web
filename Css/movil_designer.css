@@ -4,167 +4,14 @@
 /* ---------------------------------------------------------------------------------------------*/
 /*BREAK POINT TABLET 576 / 768* */
 @media screen and (min-width: 36em) and (max-width: 48em) {
-    .cont-bar{
-        justify-content:space-between;
-    }
-    .text-bar{
-        text-align: center;
-    }
-    .bar{
-        position: absolute;
-        top: 4.688em;
-        background-color:var(--main-color-white);
-        background-image: url(../Assets/Img/fondo-web.png);
-        left: 100%;
-        transition: left 2s;
-    }
-    .bar-items{
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        
-        overflow-y: scroll;
-    }
-    .bar-movil-logo{
-        display: block;
-        height: 9.375em;
-        margin: 1em;
-    }
-    .bar-link{
-        
-        color: var(--main-color-blue);
-        
-        border-radius: 1em;
-        border-style: dashed;
-        border-color: var(--main-color-blue);
-    }
-   .bar-btn{
-       display: block;
-   }
-        /* ---------------------------------------------------------------------------------------------*/
-        /* ---------------------------------------------------------------------------------------------*/
-        /* EFECTO DE MOVIMIENTO MENU LATERAL */
-        .bar-items_visible{
-            left: 0%;
-        }
 
-    /* ---------------------------------------------------------------------------------------------*/
-    /* ---------------------------------------------------------------------------------------------*/
-    /* WELCOME SECTION*/
-    .section-basic{
-        position: relative;
-        top: 4.688em;
-        width: 100%;
-        
-       
-    }  
-    .article-basic{
-        width: 80%;
-        height: 100vh;
-        margin: auto;
-        padding: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
-        background-image: url(../Assets/Img/LogoSinLetrasWhite.svg);
-        background-repeat: no-repeat;
-    } 
-    .text-h1{
-        font-style: italic;
-    }
-    .text-h2{
-        line-height: 2em;
-    }
-
-    .b-blue{
-        background-color: var(--main-color-blueLigth);
-        padding: 0.25em;
-        color: var(--main-color-white);
-        font-style: italic;
-    }
-    
-    .article-basic img{
-        height: 250px;
-        margin: 2em;
-    }
-
-    /* ---------------------------------------------------------------------------------------------*/
-    /* ---------------------------------------------------------------------------------------------*/
-    /* RESEÑA */
-    .article-basic_100{
-        width: 100%;
-        height: 50vh;
-        margin: auto;
-        padding: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
-        background-image:linear-gradient(rgba(0, 174, 255, 0.726), rgba(12, 139, 243, 0.87)), url(../Assets/Img/fondo2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .text-p{
-        color: var(--main-color-white);
-        font-weight: bold;
-        line-height: 2em;
-    }
-
-     /* ---------------------------------------------------------------------------------------------*/
-    /* ---------------------------------------------------------------------------------------------*/
-    /* CARDS SKILLS*/
-    .card{
-        position: relative;
-        top: 11.500em;
-        width: 100%;
-        height:auto;
-        border-radius: 1em;
-        background-color: var(--main-color-white);
-        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-        box-shadow: 5px 5px 15px 5px #000000;
-        margin-top: 2em;
-        padding: 1em;
-      
-    
-        
-       
-    }
-  
-   
-    .card h2{
-        font-weight: bold;
-        color: var(--main-color-blue);
-        font-style: italic;
-       
-       
-    }
-    .card p{
-        font-weight: bold;
-        font-size: 0.75em;
-        padding: 1em;
-        
-    }
-    .card-footer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .card-footer img{
-        height: 50px;
-        margin: 0;
-        padding: 1em;
-    }
 
 
 } 
 
 /* ---------------------------------------------------------------------------------------------*/
 /* ---------------------------------------------------------------------------------------------*/
-/*BREAK POINT TABLET 576 / 768* */
+/*BREAK POINT TABLET 0 / 768* */
 @media screen and (min-width: 0em) and (max-width: 36em) {
     .cont-bar{
         justify-content: space-between;
@@ -446,6 +293,80 @@
             
         }
 
+    /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* MIS OBECTIVOS*/    
+
+    .section-obj{
+        width: 100%;
+        background-image:linear-gradient(rgba(0, 132, 255, 0.726), rgba(5, 101, 180, 0.87)), url(../Assets/Img/logoBlack.svg);
+        background-size: 100% 100%;
+        background-color: #075ba5bb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-obj{
+        width: 80%;
+        text-align: center;
+        color: var(--main-color-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+    .article-obj p{
+        font-size: 0.85em;
+        font-weight: bold;
+        line-height: 2em;
+    }
+
+    /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* MIS OBECTIVOS*/ 
+    .section-otros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .article-otro{
+        width: 100%;
+        text-align: center;
+        padding: 1em;
+        
+    }
+    .article-otro h2{
+        color: var(--main-color-blue);
+    }
+    .article-otro p{
+        font-weight: bold;
+        padding: 1em;
+        font-size: 0.95em;
+    }
+    .article-otro h3{
+        text-align: center;
+        font-size: 0.75em;
+        padding: 2em;
+    }
+    .article-otro a{
+        background-color: var(--main-color-blue);
+        color: var(--main-color-white);
+        font-size: 2em;
+        font-weight: bold;
+        padding: 0.15em;
+        border-radius: 1em;
+    }
+
+    /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* MIS OBECTIVOS*/ 
+    footer{
+        height: 100px;
+        width: 100%;
+        background-color: var(--main-color-blue);
+    }
 
     
 } 
