@@ -106,7 +106,7 @@ i{
    flex-direction: column;
    justify-content: end; 
    align-items: center;
-   z-index: 999;
+
 }
 .redes{
     display: flex;
@@ -200,19 +200,10 @@ i{
         -webkit-box-shadow: 5px 5px 15px 5px #000000; 
         box-shadow: 5px 5px 15px 5px #000000;
         margin: 2em;
-        
-        
+        padding: 1em;
        
     }
-    .card-header{
-        padding: 2em;
-        background-color: var(--main-color-blueLigth);
-        
-    }
-    .card-header img{
-        height: 100px;
-        margin: 0;
-    }
+    
     .card h2{
         font-weight: bold;
         color: var(--main-color-blue);
