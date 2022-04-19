@@ -14,9 +14,7 @@ html{
 }
 /*FONDO PREDETERMIANDO*/
 body{
-    background-image: url(../Assets/Img/fondo-web.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 /*COLORES PREDETERMINADOS QUE VAMOS A USAS*/
 :root{
@@ -115,6 +113,9 @@ i{
         padding-top: 0;
         font-size: 0.75em;
        }
+    .bar-item:hover{
+        background-color: #0E4563;
+    }   
        .cont-redes{
            width: 100%;
            position: fixed;
@@ -419,6 +420,121 @@ i{
             width: 100%;
             background-color: var(--main-color-blue);
         }
+        /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* VENTANA MODAL*/
+    .section-modal{
+       
+        position: fixed;
+        top: 0;
+        
+        width: 100%; 
+        height: 100vh;
+
+        display: none;
+        z-index: 9999;
+        
+        
+       
+       
+    } 
+
+    .art-modal{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000d7;
+        overflow:hidden;
+        
+
+    }
+
+    .modal{
+        height: auto;
+        width: 50%;
+        background-color: var(--main-color-white);
+        display: flex;
+        flex-direction: column;
+        border-radius: 1em;
+        overflow: hidden;
+    }
+
+    .modal-header{
+        background-color: var(--main-color-blue);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 0.75em;
+
+    }
+    .modal-header img{
+        height: 40px;
+    }
+    .modal-header h2{
+        color: var(--main-color-white);
+        text-align: center;
+    
+        flex-grow: 1;
+    }
+    .modal-header a{
+        font-size: 1em;
+        font-weight: bold;
+        color: var(--main-color-white);
+       
+
+    }
+
+    .modal-body{
+        text-align: center;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .modal-body h3{
+        font-style: italic;
+        color: var(--main-color-blue);
+        padding: 0.55em;
+        border-bottom: solid;
+    }
+    .modal-body img{
+        height: 80px;
+    }
+    label{
+        font-weight: bold;
+        padding-top: 0.55em;
+        padding-bottom: 0.55em;
+    }
+    .inpText{
+       border: 0.5px solid ;
+       border-color: var(--main-color-blue);
+       border-radius: 1em;
+       width: 50%;
+       height: 35px;
+    }
+
+    .modal-footer{
+        display: flex;
+        justify-content: center;
+        padding: 0.55em;
+        background-color: var(--main-color-blue);
+      
+    }
+    .modal-footer a{
+        color: var(--main-color-white);
+        padding: 0.44em;
+        margin: 0.55em;
+        border-color: var(--main-color-white);
+        border-style: solid;
+        border-radius: 1em;
+    }
+
+    .modal-visible{
+        display: block;
+    }
     
     
     
@@ -434,6 +550,10 @@ i{
         padding-top: 0;
         font-size: 0.75em;
        }
+
+       .bar-item:hover{
+        background-color: #0E4563;
+    }     
        .cont-redes{
            width: 100%;
            position: fixed;
@@ -738,6 +858,120 @@ i{
             width: 100%;
             background-color: var(--main-color-blue);
         }
+
+        /* ---------------------------------------------------------------------------------------------*/
+    /* ---------------------------------------------------------------------------------------------*/
+    /* VENTANA MODAL*/
+    .section-modal{
+       
+        position: fixed;
+        top: 0;
+        
+        width: 100%; 
+        height: 100vh;
+
+        display: none;
+        z-index: 9999;
+        
+        
+       
+       
+    } 
+
+    .art-modal{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000d7;
+        overflow:hidden;
+        
+
+    }
+
+    .modal{
+        height: auto;
+        width: 50%;
+        background-color: var(--main-color-white);
+        display: flex;
+        flex-direction: column;
+        border-radius: 1em;
+        overflow: hidden;
+    }
+
+    .modal-header{
+        background-color: var(--main-color-blue);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 0.75em;
+    }
+    .modal-header img{
+        height: 40px;
+    }
+    .modal-header h2{
+        color: var(--main-color-white);
+        text-align: center;
+        font-size: 00.75em;
+        flex-grow: 1;
+    }
+    .modal-header a{
+        font-size: 1em;
+        font-weight: bold;
+        color: var(--main-color-white);
+
+    }
+
+    .modal-body{
+        text-align: center;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .modal-body h3{
+        font-style: italic;
+        color: var(--main-color-blue);
+        padding: 0.55em;
+        border-bottom: solid;
+    }
+    .modal-body img{
+        height: 80px;
+    }
+    label{
+        font-weight: bold;
+        padding-top: 0.55em;
+        padding-bottom: 0.55em;
+    }
+    .inpText{
+       border: 0.5px solid ;
+       border-color: var(--main-color-blue);
+       border-radius: 1em;
+       width: 50%;
+       height: 35px;
+    }
+
+    .modal-footer{
+        display: flex;
+        justify-content: center;
+        padding: 0.55em;
+        background-color: var(--main-color-blue);
+      
+    }
+    .modal-footer a{
+        color: var(--main-color-white);
+        padding: 0.44em;
+        margin: 0.55em;
+        border-color: var(--main-color-white);
+        border-style: solid;
+        border-radius: 1em;
+    }
+
+    .modal-visible{
+        display: block;
+    }
     
     
     
@@ -752,6 +986,9 @@ i{
     padding-top: 0;
     font-size: 0.75em;
    }
+   .bar-item:hover{
+    background-color: #0E4563;
+}  
    .cont-redes{
        width: 100%;
        position: fixed;
@@ -1057,24 +1294,119 @@ i{
         background-color: var(--main-color-blue);
     }
 
-
     /* ---------------------------------------------------------------------------------------------*/
     /* ---------------------------------------------------------------------------------------------*/
     /* VENTANA MODAL*/
     .section-modal{
-      
+       
+        position: fixed;
+        top: 0;
+        
+        width: 100%; 
+        height: 100vh;
+
+        display: none;
+        z-index: 9999;
+        
+        
+       
        
     } 
 
-    .modal{
-        width: 50%;
-        height: 50%;
+    .art-modal{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000d7;
+        overflow:hidden;
         
-    }
-    .modal-header{
-        background-color: #0071BC;
+
     }
 
+    .modal{
+        height: auto;
+        width: 80%;
+        background-color: var(--main-color-white);
+        display: flex;
+        flex-direction: column;
+        border-radius: 1em;
+        overflow: hidden;
+    }
+
+    .modal-header{
+        background-color: var(--main-color-blue);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 0.75em;
+    }
+    .modal-header img{
+        height: 40px;
+    }
+    .modal-header h2{
+        color: var(--main-color-white);
+        text-align: center;
+        font-size: 00.75em;
+        flex-grow: 1;
+    }
+    .modal-header a{
+        font-size: 1em;
+        font-weight: bold;
+        color: var(--main-color-white);
+
+    }
+
+    .modal-body{
+        text-align: center;
+        padding: 0.75em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .modal-body h3{
+        font-style: italic;
+        color: var(--main-color-blue);
+        padding: 0.55em;
+        border-bottom: solid;
+    }
+    .modal-body img{
+        height: 80px;
+    }
+    label{
+        font-weight: bold;
+        padding-top: 0.55em;
+        padding-bottom: 0.55em;
+    }
+    .inpText{
+       border: 0.5px solid ;
+       border-color: var(--main-color-blue);
+       border-radius: 1em;
+       width: 50%;
+       height: 35px;
+    }
+
+    .modal-footer{
+        display: flex;
+        justify-content: center;
+        padding: 0.55em;
+        background-color: var(--main-color-blue);
+      
+    }
+    .modal-footer a{
+        color: var(--main-color-white);
+        padding: 0.44em;
+        margin: 0.55em;
+        border-color: var(--main-color-white);
+        border-style: solid;
+        border-radius: 1em;
+    }
+
+    .modal-visible{
+        display: block;
+    }
 
 
 } 
