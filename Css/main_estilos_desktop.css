@@ -57,8 +57,9 @@ i{
     align-items: stretch;
     line-height: 4.688em;
     position: fixed;
-
     z-index: 1000;
+
+
   
 }
 .text-bar{
@@ -139,6 +140,11 @@ i{
        .redes-items .img-redes{
            height: 45px;
            margin: 0.55em;
+       }
+
+       .img-redes:hover{
+            transition-duration: 0.8s;
+            transform:scale(1.3);
        }
        /* ---------------------------------------------------------------------------------------------*/
        /*WELCOME*/
@@ -619,6 +625,10 @@ i{
            height: 45px;
            margin: 0.55em;
        }
+       .img-redes:hover{
+        transition-duration: 0.8s;
+        transform:scale(1.3);
+        }
        /* ---------------------------------------------------------------------------------------------*/
        /*WELCOME*/
        .section-welcome{
@@ -1092,6 +1102,11 @@ i{
        height: 45px;
        margin: 0.55em;
    }
+
+   .img-redes:hover{
+    transition-duration: 0.8s;
+    transform:scale(1.3);
+}
    /* ---------------------------------------------------------------------------------------------*/
    /*WELCOME*/
    .section-welcome{
@@ -1334,6 +1349,7 @@ i{
         flex-direction: column;
         align-items: center;
         padding: 1em;
+        z-index: 999;
     } 
 
     .article-otro{
