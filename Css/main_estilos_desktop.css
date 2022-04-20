@@ -282,73 +282,37 @@ i{
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
-       .card-project{
-        position: relative;
-        width: 250px;
-        height: 250px;
-        display: flex;
-        align-items: center;
-    
-       
-    
-       }
-    
-       .card-project .face{
-           position: absolute;
-           width: 100%;
-           transition: 5s;
-           backface-visibility: hidden;
-           
-           
-           
-       }    
-    
-       .card-project .front img{
-        transform: perspective(800px) rotateY(0deg);
-        width: 100%;
-        object-fit: contain;
+        .card-project{
+            width: 25%;
+            height: auto;
+            margin:1em;
+            background-color: var(--main-color-blueLigth);
+            border-radius: 1em;
+            overflow: hidden;
         }
-    
-    
-    
-       .card-project .front{
-           transform: perspective(800px) rotateY(0deg);
-           box-shadow: 0 5px 10px #000000;
-           
-       }
-       
-    
-    
-       .card-project .back{
-            transform: perspective(800px) rotateY(180deg);
-            background-color: rgba(0, 0, 0, 0.692);
+        .card-project-header{
+            padding: 1em;
+            font-size: 0.80em;
+            background-color: var(--main-color-blueDark);
             color: var(--main-color-white);
-            font-size: 0.55em;
+           
+        }
+        .card-project-body h3{
+            color: var(--main-color-white);
+            padding-top:0.45em ;
+        }
+        .card-project-body p{
+            font-size: 0.75em;
+        }
+        .card-project-footer{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 200px;
-    
+            background-color: var(--main-color-blueDark);
         }
-        .card-project .back a{
-            color: var(--main-color-blueLigth);
+        .card-project-footer a{
+            color: var(--main-color-white);
+            padding: 0.15em;
         }
-    
-            /* ---------------------------------------------------------------------------------------------*/
-            /* EFECTOS CARDS PROJECTS*/
-    
-            
-        .card-project:hover .front{
-                transform: perspective(800px) rotateY(180deg);
-                box-shadow: 0 5px 10px #000000;
-            }
-            .card-project:hover .back{
-                transform: perspective(800px) rotateY(360deg);
-              
-                
-            }
-    
        
         /* ---------------------------------------------------------------------------------------------*/
         /* ---------------------------------------------------------------------------------------------*/
@@ -737,7 +701,7 @@ i{
             padding: 1em;
         }
     
-         /* ---------------------------------------------------------------------------------------------*/
+        /* ---------------------------------------------------------------------------------------------*/
         /* ---------------------------------------------------------------------------------------------*/
         /* PROYECTOS*/
         .section-proyect{
@@ -765,74 +729,37 @@ i{
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
-       .card-project{
-        position: relative;
-        width: 250px;
-        height: 250px;
-        display: flex;
-        align-items: center;
-    
-       
-    
-       }
-    
-       .card-project .face{
-           position: absolute;
-           width: 100%;
-           transition: 5s;
-           backface-visibility: hidden;
-           
-           
-           
-       }    
-    
-       .card-project .front img{
-        transform: perspective(800px) rotateY(0deg);
-        width: 100%;
-        object-fit: contain;
+        .card-project{
+            width: 25%;
+            height: auto;
+            margin:1em;
+            background-color: var(--main-color-blueLigth);
+            border-radius: 1em;
+            overflow: hidden;
         }
-    
-    
-    
-       .card-project .front{
-           transform: perspective(800px) rotateY(0deg);
-           box-shadow: 0 5px 10px #000000;
-           
-       }
-       
-    
-    
-       .card-project .back{
-            transform: perspective(800px) rotateY(180deg);
-            background-color: rgba(0, 0, 0, 0.692);
+        .card-project-header{
+            padding: 1em;
+            font-size: 0.80em;
+            background-color: var(--main-color-blueDark);
             color: var(--main-color-white);
-            font-size: 0.55em;
+           
+        }
+        .card-project-body h3{
+            color: var(--main-color-white);
+            padding-top:0.45em ;
+        }
+        .card-project-body p{
+            font-size: 0.75em;
+        }
+        .card-project-footer{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 200px;
-    
+            background-color: var(--main-color-blueDark);
         }
-        .card-project .back a{
-            color: var(--main-color-blueLigth);
+        .card-project-footer a{
+            color: var(--main-color-white);
+            padding: 0.15em;
         }
-    
-            /* ---------------------------------------------------------------------------------------------*/
-            /* EFECTOS CARDS PROJECTS*/
-    
-            
-        .card-project:hover .front{
-                transform: perspective(800px) rotateY(180deg);
-                box-shadow: 0 5px 10px #000000;
-            }
-            .card-project:hover .back{
-                transform: perspective(800px) rotateY(360deg);
-              
-                
-            }
-    
-       
         /* ---------------------------------------------------------------------------------------------*/
         /* ---------------------------------------------------------------------------------------------*/
         /* MIS OBECTIVOS*/    
@@ -1215,99 +1142,64 @@ i{
         padding: 1em;
     }
 
-     /* ---------------------------------------------------------------------------------------------*/
     /* ---------------------------------------------------------------------------------------------*/
-    /* PROYECTOS*/
-    .section-proyect{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2em;
-    }
-    .section-proyect .text-card-project{
-        color: var(--main-color-blue);
-        
-    }
-    .section-proyect p{
-        font-weight: bold;
-        
-        padding: 1em;
-    }
-    .article-card-project{
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-   .card-project{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-
-   
-
-   }
-
-   .card-project .face{
-       position: absolute;
-       width: 100%;
-       transition: 5s;
-       backface-visibility: hidden;
-       
-       
-       
-   }    
-
-   .card-project .front img{
-    transform: perspective(800px) rotateY(0deg);
-    width: 100%;
-    object-fit: contain;
-    }
-
-
-
-   .card-project .front{
-       transform: perspective(800px) rotateY(0deg);
-       box-shadow: 0 5px 10px #000000;
-       
-   }
-   
-
-
-   .card-project .back{
-        transform: perspective(800px) rotateY(180deg);
-        background-color: rgba(0, 0, 0, 0.692);
-        color: var(--main-color-white);
-        font-size: 0.55em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 200px;
-
-    }
-    .card-project .back a{
-        color: var(--main-color-blueLigth);
-    }
-
         /* ---------------------------------------------------------------------------------------------*/
-        /* EFECTOS CARDS PROJECTS*/
-
-        
-    .card-project:hover .front{
-            transform: perspective(800px) rotateY(180deg);
-            box-shadow: 0 5px 10px #000000;
+        /* PROYECTOS*/
+        .section-proyect{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2em;
         }
-        .card-project:hover .back{
-            transform: perspective(800px) rotateY(360deg);
-          
+        .section-proyect .text-card-project{
+            color: var(--main-color-blue);
             
+        }
+        .section-proyect p{
+            font-weight: bold;
+            
+            padding: 1em;
+        }
+        .article-card-project{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .card-project{
+            width: 25%;
+            height: auto;
+            margin:1em;
+            background-color: var(--main-color-blueLigth);
+            border-radius: 1em;
+            overflow: hidden;
+        }
+        .card-project-header{
+            padding: 1em;
+            font-size: 0.75em;
+            background-color: var(--main-color-blueDark);
+            color: var(--main-color-white);
+           
+        }
+        .card-project-body h3{
+            color: var(--main-color-white);
+            padding-top:0.45em ;
+        }
+        .card-project-body p{
+            font-size: 0.75em;
+        }
+        .card-project-footer{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--main-color-blueDark);
+        }
+        .card-project-footer a{
+            color: var(--main-color-white);
+            padding: 0.15em;
         }
 
    
