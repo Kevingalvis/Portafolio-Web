@@ -32,7 +32,7 @@ body{
 .bar-link{
     color: var(--main-color-white);
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
 }
 i{
     margin-right: 1em;
@@ -358,6 +358,10 @@ i{
             width: 100%;
             text-align: center;
             padding: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             
         }
         .article-otro h2{
@@ -368,19 +372,17 @@ i{
             font-weight: bold;
            
         }
+        .section-otros img{
+            height: 150px;
+            padding: 1em;
+        }
+
         .article-otro h3{
             text-align: center;
            
             padding: 2em;
         }
-        .article-otro a{
-            background-color: var(--main-color-blue);
-            color: var(--main-color-white);
-            font-size: 2em;
-            font-weight: bold;
-            padding: 0.15em;
-            border-radius: 1em;
-        }
+        
     
           /* ---------------------------------------------------------------------------------------------*/
         /* ---------------------------------------------------------------------------------------------*/
@@ -805,6 +807,10 @@ i{
             text-align: center;
             padding: 1em;
             
+        }
+        .section-otros img{
+            height: 150px;
+            padding: 1em;
         }
         .article-otro h2{
             color: var(--main-color-blue);
@@ -1241,7 +1247,7 @@ i{
         flex-direction: column;
         align-items: center;
         padding: 1em;
-        z-index: 999;
+      
     } 
 
     .article-otro{
@@ -1249,6 +1255,10 @@ i{
         text-align: center;
         padding: 1em;
         
+    }
+    .section-otros img{
+        height: 150px;
+        padding: 1em;
     }
     .article-otro h2{
         color: var(--main-color-blue);

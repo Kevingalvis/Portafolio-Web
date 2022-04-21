@@ -320,6 +320,10 @@
         padding: 1em;
         
     }
+    .section-otros img{
+        height: 150px;
+        padding: 1em;
+    }
     .article-otro h2{
         color: var(--main-color-blue);
         padding: 1em;
@@ -824,6 +828,10 @@
         text-align: center;
         padding: 1em;
         
+    }
+    .section-otros img{
+        height: 150px;
+        padding: 1em;
     }
     .article-otro h2{
         color: var(--main-color-blue);
