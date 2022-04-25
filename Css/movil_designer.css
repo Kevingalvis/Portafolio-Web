@@ -446,6 +446,7 @@
         border: 0.5px solid ;
         border-color: var(--main-color-blue);
         border-radius: 1em;
+        text-align: center;
     }
 
     .modal-footer{
@@ -950,11 +951,13 @@
         font-weight: bold;
         padding-top: 0.55em;
         padding-bottom: 0.55em;
+       
     }
     .inpText{
         border: 0.5px solid ;
         border-color: var(--main-color-blue);
         border-radius: 1em;
+        text-align: center;
         
     }
 
@@ -1004,9 +1007,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-
     }
+
     .loader-body .imgLoader{
         height: 200px;
     }

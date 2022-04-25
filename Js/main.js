@@ -1,6 +1,10 @@
 // VARIABLES MENU LATERAL 
 const $btnBar = document.querySelector(".bar-btn");
+const $btnHome =  document.querySelector(".home");
+const $btnAcerca = document.querySelector(".acerca");
+const $btnProjects = document.querySelector(".projects");
 const $batItems = document.querySelector(".bar");
+
 //VARIABLES MODAL CONTACTAME
 const $ventanModal = document.querySelector(".section-modal");
 const $linkContact = document.querySelector(".contact");
@@ -22,6 +26,16 @@ const $loader = document.querySelector(".section-loader");
 $btnBar.addEventListener("click",()=>{
     $batItems.classList.toggle("bar-items_visible");
 });
+$btnHome.addEventListener("click",()=>{
+  $batItems.classList.toggle("bar-items_visible");
+});
+$btnAcerca.addEventListener("click",()=>{
+  $batItems.classList.toggle("bar-items_visible");
+});
+$btnProjects.addEventListener("click",()=>{
+  $batItems.classList.toggle("bar-items_visible");
+});
+
 
 /** ------------------------------------------------- */
 /** ------------------------------------------------- */
@@ -43,7 +57,7 @@ $cancelar.addEventListener("click",(e)=>{
 /** ------------------------------------------------- */
 //FUNCIONALIDAD PRELOADER
 window.addEventListener("load", ()=>{
-  console.log("asdadasd")
+  
   setTimeout(function(){
     $loader.classList.toggle("loader-close");
   },5000);
