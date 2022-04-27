@@ -12,6 +12,8 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    background-image: url(../Assets/Img/Fondo.png);
+    background-size: contain;
 }
 /*FONDO PREDETERMIANDO*/
 body{
@@ -166,7 +168,7 @@ i{
         }
         .article-welcome img{
             height: 250px;
-            margin: 2em;
+            margin: 1em;
         }
         .article-welcome h2{
             line-height: 2em;
