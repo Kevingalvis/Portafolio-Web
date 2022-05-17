@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:title" content="ProgramingKevinGalvis" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Assets/Img/logoSinLetrasBlack.svg">
     <link rel="stylesheet" href="Css/main_estilos_desktop.css">
@@ -103,57 +102,15 @@
                     <h2>Keratinas Noriega</h2>
                 </div>
                 <div class="card-project-body">
-                    <h3>Keratinas Noriega</h3>
-                    <p>NoriegaKeratinas:es una web informativa para obtener y conocer los productos ubicacion y servicios</p>
-                    <h3>Tecnologias</h3>
-                    <p>la pagina web fue desarrollado desde 0 tanto diseño , maquetacion y programacion.
-                        se utilizo JavaScript,Htm5,Css3 y Flexbox
-                    </p>
+                    <video src="Assets/Media/BeautifulNoriga.mp4" preload controls width="100%" height="100%"></video>
                 </div>
                 <div class="card-project-footer">
-                    <a href="">Link</a>
-                    <a href="">GitHub</a>
+                    <a href="https://beautifulnoriega.000webhostapp.com/" target="_blank">NoriegaBeautiful</a>
+                    <a href="https://github.com/Kevingalvis/Noriega-Beautiful" target="_blank">GitHub</a>
                 </div>
             </div>
 
-            <div class="card-project ">
-                <div class="card-project-header">
-                    <h2>Keratinas Noriega</h2>
-                </div>
-                <div class="card-project-body">
-                    <h3>Keratinas Noriega</h3>
-                    <p>NoriegaKeratinas:es una web informativa para obtener y conocer los productos ubicacion y servicios</p>
-                    <h3>Tecnologias</h3>
-                    <p>la pagina web fue desarrollado desde 0 tanto diseño , maquetacion y programacion.
-                        se utilizo JavaScript,Htm5,Css3 y Flexbox
-                    </p>
-                </div>
-                <div class="card-project-footer">
-                    <a href="">Link</a>
-                    <a href="">GitHub</a>
-                </div>
-            </div>
-
-
-            <div class="card-project ">
-                <div class="card-project-header">
-                    <h2>Keratinas Noriega</h2>
-                </div>
-                <div class="card-project-body">
-                    <h3>Keratinas Noriega</h3>
-                    <p>NoriegaKeratinas:es una web informativa para obtener y conocer los productos ubicacion y servicios</p>
-                    <h3>Tecnologias</h3>
-                    <p>la pagina web fue desarrollado desde 0 tanto diseño , maquetacion y programacion.
-                        se utilizo JavaScript,Htm5,Css3 y Flexbox
-                    </p>
-                </div>
-                <div class="card-project-footer">
-                    <a href="">Link</a>
-                    <a href="">GitHub</a>
-                </div>
-            </div>
-
-
+         
     </article>
 </section>
 <!-- MIS OBJECTIVOS-->
@@ -186,20 +143,28 @@
                 <a class="Cerrar">X</a>
             </div>
             <div class="modal-body">
-                <img src="Assets/Img/logoColor.svg" alt="">
-                <h3>Hola!!,Estare pidiendo el cafe para charlar un poco</h3>
-                <label for="textInput">Nombre:</label>
-                <input type="text" class="inpText">
-                <label for="textInput">Correo:</label>
-                <input type="text" class="inpText">
-    
-                <label for="textInput">Mensaje:</label>
-                <textarea name="" id="" cols="10" class="inpText"></textarea>
+                <form action="https://formsubmit.co/kevin_david_T@outlook.com" class="modal-body" method="POST">
+                    <img src="Assets/Img/logoColor.svg" alt="">
+                    <h3>Hola!!,Estare pidiendo el cafe para charlar un poco</h3>
+                    <label for="textInput">Nombre:</label>
+                    <input type="text" class="inpText" name="name" required>
+
+                    <label for="textInput">Correo:</label>
+                    <input type="text" class="inpText" name="email" required>
+                    
+                    <label for="textInput" ty>Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="10" class="inpText"></textarea> 
+
+                    <div class="modal-footer">
+                        <button type="submit">Enviar</button>
+                        <button class="cancelar">Cancelar</button>
+                    </div>
+                    
+                    
+                </form>
+               
             </div>
-            <div class="modal-footer">
-                <a href="#">Enviar</a>
-                <a class="cancelar">Cancelar</a>
-            </div>
+           
         </div>
     </article>
 </section>
